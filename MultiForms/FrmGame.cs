@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace MultiForms
 {
-    public partial class Form1 : Form
+    public partial class FrmGame : Form
     {
-        public Form1()
+        public FrmGame()
         {
             InitializeComponent();
+        }
+
+        private void FrmGame_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnReturn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
