@@ -19,8 +19,8 @@ namespace MultiForms
 
         private void BtnWelcome_Click(object sender, EventArgs e)
         {
-            FrmGame x = new FrmGame();
-            x.Show();
+            FrmGame frmGame = new FrmGame();
+            frmGame.Show();
         }
 
         private void redToolStripMenuItem_Click(object sender, EventArgs e)
